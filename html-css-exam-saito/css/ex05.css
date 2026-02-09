@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+header {
+    background-color: aqua;
+    width: 900px;
+    height: 50px;
+}
+
+footer {
+    background-color: peru;
+    width: 900px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    height: 400px;
+    background-color: brown;
+}
+
+.contents {
+    width: 700px;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.cm {
+    width: 200px;
+    height: 400px;
+    background-color: chartreuse;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
